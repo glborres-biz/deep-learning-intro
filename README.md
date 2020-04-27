@@ -66,27 +66,27 @@ If for some reason you don't see `Houston we are go!`, the simplest solution is 
 
 To remove the environment:
 
-- close the browser and go back to your terminal
-- stop jupyter notebook (CTRL-C)
-- deactivate the environment (Mac/Linux):
+1. close the browser and go back to your terminal
+2. stop jupyter notebook (CTRL-C)
+3. deactivate the environment (Mac/Linux):
 
 ```
 conda deactivate
 ```
 
-- deactivate the environment (Windows 10):
+4. deactivate the environment (Windows 10):
 
 ```
 deactivate deep-learning
 ```
 
-- delete the environment:
+5. delete the environment:
 
 ```
 conda remove -y -n deep-learning --all
 ```
 
-- restart from environment creation and make sure that each steps completes till the end.
+6. restart from environment creation and make sure that each steps completes till the end.
 
 #### Updating Conda
 
