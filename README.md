@@ -12,7 +12,7 @@ git clone https://github.com/glborres-biz/deep-learning-intro.git
 2. Download the installer (Windows/MacOS/Linux)
 3. Select Python 3.7 64-Bit Graphical Installer
 4. Install the Anaconda
-   - On Advanced Options, if you want the `conda` command available in other shell, check the **Add Anaconda to my PATH environment variable** (But this setup is not recommended because this can interfere with other software)
+   - On _Advanced Options_, if you want the `conda` command available in other shell, check the **Add Anaconda to my PATH environment variable** (But this setup is not recommended because this can interfere with other software)
    - Instead, open Anaconda with the Start Menu and select **Anaconda Prompt**
 
 #### Change to project folder
@@ -27,7 +27,7 @@ cd deep-learning-intro
 conda env create
 ```
 
-Wait for the environment to create.
+Wait for the environment to be created.
 
 #### Activate the environment (Mac/Linux/Windows)
 ```
@@ -122,10 +122,10 @@ Follow these steps:
 4. Enable GPU support in the `Edit -> Notebook Settings` menu
 5. Enjoy running the notebook with GPU support!
 6. If the notebook loads data from the repo you will have to download the data too. Follow these steps to do that:
-  - Create a code cell at the top of the notebook
-  - Clone the repository in Colab:
+   - Create a code cell at the top of the notebook
+   - Clone the repository in Colab:
   ```
   !git clone https://github.com/glborres-biz/deep-learning-intro.git
   ```
-  - Replace the `../data` path with `deep-learning-intro/data` in the cell that loads the data.
+   - Replace the `../data` path with `deep-learning-intro/data` in the cell that loads the data.
 7. Enjoy!
