@@ -1,4 +1,4 @@
-name: ztdl
+name: deep-learning
 channels:
 - defaults
 dependencies:

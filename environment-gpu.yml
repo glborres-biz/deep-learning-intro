@@ -1,4 +1,4 @@
-name: ztdl-gpu
+name: deep-learning-gpu
 channels:
 - defaults
 dependencies:
