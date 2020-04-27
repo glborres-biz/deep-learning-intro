@@ -12,14 +12,16 @@ git clone https://github.com/glborres-biz/deep-learning-intro.git
 2. Download the installer (Windows/MacOS/Linux)
 3. Select Python 3.7 64-Bit Graphical Installer
 4. Install the Anaconda
+   - On Advanced Options, if you want the `conda` command available in other shell, check the **Add Anaconda to my PATH environment variable** (But this setup is not recommended because this can interfere with other software)
+   - Instead, open Anaconda with the Start Menu and select **Anaconda Prompt**
 
-#### Change to course folder
+#### Change to project folder
 
 ```
 cd deep-learning-intro
 ```
 
-#### Create the course environment
+#### Create the project environment
 
 ```
 conda env create
@@ -52,7 +54,7 @@ http://localhost:8888
 
 #### Run the Check environment Notebook
 
-Go to the course folder, open the notebook `0_Check_Environment.ipynb` and run it. If you see the message:
+Go to the project folder, open the notebook `0_Check_Environment.ipynb` and run it. If you see the message:
 
     Houston we are go!
 
@@ -100,15 +102,15 @@ These instructions have been tested on:
 - Ubuntu 18.04
 - Windows 10
 
-## Running the course on Docker
+## Running the project on Docker
 
-Run this command from terminal in course directory and copy Jupyter notebook url to browser after installation.
+Run this command from terminal in project directory and copy Jupyter notebook url to browser after installation.
 
 ```
 docker-compose up
 ```
 
-## Running the course on Google Colaboratory with free GPU support
+## Running the project on Google Colaboratory with free GPU support
 
 Google offers a free platform to run Jupyter notebooks called Google Colaboratory. You need a Gmail or Google Apps email address to use it.
 
