@@ -60,16 +60,16 @@ http://localhost:8888
 
 1. Go to the project folder, click the `course` folder
 2. Open the notebook `0_Check_Environment.ipynb`.
-3. Click the Cell Tab > Run All
-4. If you see the message:
+3. Click the **Cell Tab > Run All**
+4. If you see the message at the end:
 
-    Welcome to deep learning!
+   `Welcome to deep learning!`
 
 You are good to go! Enjoy! :star: :sunglasses:
 
 
 ### Troubleshooting installation
-If for some reason you don't see `Houston we are go!`, the simplest solution is to delete the environment and start from scratch again.
+If for some reason you don't see `Welcome to deep learning!`, the simplest solution is to delete the environment and start from scratch again.
 
 To remove the environment:
 
