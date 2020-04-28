@@ -33,6 +33,7 @@ conda env create
 Wait for the environment to be created.
 
 #### 5. Activate/Run the environment (Mac/Linux/Windows)
+
 ```
 conda activate deep-learning
 ```
@@ -57,11 +58,14 @@ http://localhost:8888
 
 #### 8. Run the Check environment Notebook
 
-Go to the project folder, open the notebook `0_Check_Environment.ipynb` and run it. If you see the message:
+1. Go to the project folder, click the `course` folder
+2. Open the notebook `0_Check_Environment.ipynb`.
+3. Click the Cell Tab > Run All
+4. If you see the message:
 
-    Houston we are go!
+    Welcome to deep learning!
 
-You are good to go! Enjoy!
+You are good to go! Enjoy! :star: :sunglasses:
 
 
 ### Troubleshooting installation
