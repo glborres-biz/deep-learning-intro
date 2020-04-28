@@ -1,27 +1,30 @@
 ## Get started guide
 
-#### Clone this repository on your local computer
+#### 1. Clone this repository on your local computer
 
 ```
 git clone https://github.com/glborres-biz/deep-learning-intro.git
 ```
 
-#### Download and Install Anaconda Python 3.7
+#### 2. Download and Install Anaconda Python 3.7
 
 1. Go to https://www.anaconda.com/products/individual
 2. Download the installer (Windows/MacOS/Linux)
 3. Select Python 3.7 64-Bit Graphical Installer
 4. Install the Anaconda
-   - On _Advanced Options_, if you want the `conda` command available in other shell, check the **Add Anaconda to my PATH environment variable** (But this setup is not recommended because this can interfere with other software)
-   - Instead, open Anaconda with the Start Menu and select **Anaconda Prompt**
+   - Select a path that has no spaces _(e.g. C:\anaconda)_
+   - On _Advanced Options_
+     - **Windows:** if you want the `conda` command available in other shell, check the **Add Anaconda to my PATH environment variable** (But this setup is not recommended because this can interfere with other software). Instead, open Anaconda with the Start Menu and select **Anaconda Prompt**
+     - **MacOS/Linux** - Input **yes** when asked “Do you wish the installer to initialize Anaconda3 by running conda init?” 
+     - For more information, visit their [guide](https://docs.anaconda.com/anaconda/install/) or [FAQ](https://docs.anaconda.com/anaconda/user-guide/faq/#installing-anaconda).
 
-#### Change to project folder
+#### 3. Change to project folder
 
 ```
 cd deep-learning-intro
 ```
 
-#### Create the project environment
+#### 4. Create the project environment
 
 ```
 conda env create
@@ -29,7 +32,7 @@ conda env create
 
 Wait for the environment to be created.
 
-#### Activate the environment (Mac/Linux/Windows)
+#### 5. Activate/Run the environment (Mac/Linux/Windows)
 ```
 conda activate deep-learning
 ```
@@ -40,19 +43,19 @@ Check that your prompt changed to
 (deep-learning) $
 ```
 
-#### Launch Jupyter Notebook
+#### 6. Launch Jupyter Notebook
 
 ```
 jupyter notebook
 ```
 
-#### Open your browser to
+#### 7. Open your browser to
 
 ```
 http://localhost:8888
 ```
 
-#### Run the Check environment Notebook
+#### 8. Run the Check environment Notebook
 
 Go to the project folder, open the notebook `0_Check_Environment.ipynb` and run it. If you see the message:
 
@@ -61,7 +64,7 @@ Go to the project folder, open the notebook `0_Check_Environment.ipynb` and run 
 You are good to go! Enjoy!
 
 
-#### Troubleshooting installation
+### Troubleshooting installation
 If for some reason you don't see `Houston we are go!`, the simplest solution is to delete the environment and start from scratch again.
 
 To remove the environment:
@@ -88,7 +91,7 @@ conda remove -y -n deep-learning --all
 
 6. restart from environment creation and make sure that each steps completes till the end.
 
-#### Updating Conda
+### Updating Conda
 
 One thing you can also try is to update your conda executable. This may help if you already had Anaconda installed on your system.
 
